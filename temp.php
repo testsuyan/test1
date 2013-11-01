@@ -1,4 +1,5 @@
 ////add new line for testing update a file
+//for new branch 2 testing
 <?php require "header.php";
 if(isset($_GET['active']) && isset($_GET['is_js_confirmed']))
 {
