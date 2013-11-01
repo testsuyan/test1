@@ -1,4 +1,5 @@
-<?php require "header.php"; 
+////add new line for testing update a file
+<?php require "header.php";
 if(isset($_GET['active']) && isset($_GET['is_js_confirmed']))
 {
 	$result=mysql_query("UPDATE Authorization SET active='".$_GET['active']."' WHERE code='".$_GET['code']."'" );	
